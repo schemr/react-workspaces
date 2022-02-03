@@ -1,0 +1,14 @@
+{
+  "name": "react-workspaces",
+  "version": "0.0.1",
+  "description": "react project workspaces",
+  "author": "schemr",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
