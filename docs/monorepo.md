@@ -26,7 +26,7 @@
 
 - Lerna는 git 및 npm을 사용하여 다중 패키지 리포지토리를 관리하는 작업 과정을 최적화하는 도구입니다.
 
-```json
+```javascript
 // lerna 설치
 yarn global add lerna
 
@@ -36,8 +36,8 @@ lerna init
 // root package.json workspaces 설정
 {
 	"workspaces": [
-    "packages/*"
-  ]
+    		"packages/*"
+	]
 }
 // root lerna.json
 {
@@ -68,7 +68,7 @@ lerna publish
 - babel은 lerna를 버리고 yarn workspaces 만 사용중
 - lerna도 yarn workspaces 를 사용중
 
-```json
+```javascript
 // root/package.json
 {
 	"name": "root package name",
